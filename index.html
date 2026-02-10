@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Learn Python</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top navbar-dark shadow " data-bs-theme="dark">
+        <div class="container-fluid ">
+            <a class="navbar-brand fw-bold" href="#">
+                <img class="logo" src="image/learn python.png" alt="logo">
+                Learn Python</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarColor01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Home">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Intro">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Concepts">Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Python">Python</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#basics">Basic</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#variables">Variables</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#datatypes">Data Types</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conversion">Conversion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#practice">Practice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quiz">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home" class="py-5 text-white m-0" style="background: #061E29;">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <h1 class="fw-bold display-5 ">Python Basics for Beginners</h1>
+                    <p class="lead opacity-75"> <b>Learn Programming Concepts, Python Overview, Variables and Data Types
+                            with simple theory + examples + outputs </b></p>
+                </div>
+                <div class="mt-4 d-flex flex-wrap gap-2">
+                    <a href="#Intro" class="btn  btn-outline-primary btn-lg fw-semibold shadow">Start Learning</a>
+                    <a href="#quiz" class="btn  btn-outline-primary btn-lg fw-semibold shadow">Quiz</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Intro" class="py-5 m-5">
+        <div class="text-center mb-5 ">
+            <h2 class="fw-bold">Introduction</h2>
+            <div class="text-muted col-lg-8 mx-auto">
+                <p>Python is a high-level, interpreted, and beginner-friendly programming language widely used for web
+                    development, automation, data science, AI, and software development.</p>
+            </div>
+        </div>
+        <div class="row g-4 ">
+            <div class="col-md-4 card-hover">
+                <div class="card  h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Project Objective</h5>
+                        <p class="text-muted mb-0">
+                            Understand Python basics like variables, data types and conversion with examples and
+                            outputs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">What You Will Learn</h5>
+                        <p class="text-muted mb-0">
+                            Programming concepts, Python overview, syntax, variables, data types, and practice
+                            questions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Why Learn Python?</h5>
+                        <p class="text-muted mb-0">
+                            Python is used in web development, automation testing, AI, data science, cybersecurity, and
+                            more.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Concepts" class="py-5 m-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Programming Concepts</h2>
+            <div class="text-muted col-lg-8 mx-auto">
+                <p>These are the foundation for every programming language.</p>
+            </div>
+        </div>
+        <div class="row g-4 ">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">What is Programming?</h5>
+                        <p class="text-muted mb-0">
+                            Writing instructions to solve problems (Apps, ATM, Websites).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Algorithm</h5>
+                        <p class="text-muted mb-0">
+                            Step-by-step method to solve a problem logically.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Flowchart</h5>
+                        <p class="text-muted mb-0">
+                            Diagram that shows the steps of solving a problem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold ">Debugging</h5>
+                        <p class="text-muted mb-0">
+                            Finding & fixing errors like SyntaxError / IndentationError.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card shadow p-3 mt-5">
+            <h5 class="text-dark fw-bold p-3">Quick Check</h5>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="fw-bold">1) What is an algorithm?</h5>
+                            <p class="text-muted mb-0">
+                                A step-by-step solution
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="fw-bold">2) What is debugging?</h5>
+                            <p class="text-muted mb-0">
+                                Fixing errors in code
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="fw-bold">3) What is a flowchart?</h5>
+                            <p class="text-muted mb-0">
+                                A diagram of steps
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="Python" class="py-5 m-5">
+        <div class="text-center">
+            <h2 class="fw-bold ">Python Overview</h2>
+            <div class="text-muted col-lg-8 mx-auto mb-2">Python is a high-level interpreted language created by Guido
+                van
+                Rossum. It is beginner-friendly and powerful.</div>
+        </div>
+        <div class="table-responsive shadow rounded">
+            <table class="table table-bordered table-hover align-middle mb-0">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Meaning</th>
+                        <th>Why It Matters</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="badge bg-primary">High-level</span></td>
+                        <td>Easy to understand</td>
+                        <td>Beginners can learn quickly</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge bg-success">Interpreted</span></td>
+                        <td>Runs line-by-line</td>
+                        <td>Easy debugging & testing</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge bg-warning text-dark">Portable</span></td>
+                        <td>Runs on all OS</td>
+                        <td>Works on Windows/Linux/Mac</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge bg-dark">Community</span></td>
+                        <td>Large support base</td>
+                        <td>Easy to find solutions & libraries</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row g-4 mt-1">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Web Development</h5>
+                        <p class="text-muted mb-0">
+                            Django, Flask for building websites and APIs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Automation Testing</h5>
+                        <p class="text-muted mb-0">
+                            Selenium + PyTest for automation scripts and testing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="fw-bold">AI / ML</h5>
+                        <p class="text-muted mb-0">
+                            Used in machine learning applications and data science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="basics" class="py-5 bg-white">
+        <div class="container">
+            <div class="mb-4">
+                <h2 class="fw-bold">Python Basics (Your First Program)</h2>
+                <p class="text-muted mb-0">Start with Hello World, then understand syntax rules and comments.</p>
+            </div>
+
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold">Hello World Program</h5>
+
+                    <div class="row g-3 mt-3">
+                        <div class="col-md-7">
+                            <div class="p-3 bg-dark text-white rounded">
+                                print("Hello World")
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="p-3 bg-secondary text-white rounded">
+                                <span class="badge bg-light text-dark mb-2">Output</span>
+                                <div class="fw-semibold">Hello World</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="p-3 bg-dark text-white rounded">
+                            $ python hello.py <br>
+                            Hello World
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="variables" class="py-5 bg-white">
+        <div class="container">
+            <div class="mb-4">
+                <h2 class="fw-bold">Variables in Python</h2>
+                <p class="text-muted mb-0">
+                    A variable is a name used to store data. Python creates variables when you assign values.
+                </p>
+            </div>
+
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                        <h5 class="fw-bold mb-0">Example 1: Store a Value</h5>
+                        <span class="badge bg-success">Output Included</span>
+                    </div>
+
+                    <div class="row g-3 mt-3">
+                        <div class="col-md-7">
+                            <div class="p-3 bg-dark text-white rounded">
+                                city = "Kochi" <br> print(city)
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="p-3 bg-secondary text-white rounded">
+                                <span class="badge bg-light text-dark mb-2">Output</span>
+                                <div class="fw-semibold">Kochi</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="p-3 bg-dark text-white rounded">
+                            $ python variables.py <br>
+                            Kochi
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card border-0 shadow">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+                        <h5 class="fw-bold mb-0">Example 2: Update Value</h5>
+                        <span class="badge bg-success">Output Included</span>
+                    </div>
+
+                    <div class="row g-3 mt-3">
+                        <div class="col-md-7">
+                            <div class="p-3 bg-dark text-white rounded">
+                                x = 10 <br> x = 20 <br> print(x)
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="p-3 bg-secondary text-white rounded">
+                                <span class="badge bg-light text-dark mb-2">Output</span>
+                                <div class="fw-semibold">20</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="p-3 bg-dark text-white rounded">
+                            $ python update_value.py <br>
+                            20
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="datatypes" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Data Types in Python</h2>
+                <p class="text-muted col-lg-8 mx-auto">
+                    Data type defines what kind of value the variable holds. Example: number, decimal, text, true/false.
+                </p>
+            </div>
+
+            <div class="table-responsive shadow rounded mb-4">
+                <table class="table table-hover table-bordered align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Data Type</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>int</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>float</td>
+                            <td>10.5</td>
+                        </tr>
+                        <tr>
+                            <td>complex</td>
+                            <td>2+3j</td>
+                        </tr>
+                        <tr>
+                            <td>str</td>
+                            <td>"Hello"</td>
+                        </tr>
+                        <tr>
+                            <td>bool</td>
+                            <td>True</td>
+                        </tr>
+                        <tr>
+                            <td>list</td>
+                            <td>[1,2,3]</td>
+                        </tr>
+                        <tr>
+                            <td>tuple</td>
+                            <td>(1,2,3)</td>
+                        </tr>
+                        <tr>
+                            <td>set</td>
+                            <td>{1,2,3}</td>
+                        </tr>
+                        <tr>
+                            <td>dict</td>
+                            <td>{"a":1}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">int (Integer)</h5>
+                            <p class="text-muted mb-2"><b>int</b> stores whole numbers (no decimals).</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                age = 21 <br> print(type(age))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'int'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">float (Decimal)</h5>
+                            <p class="text-muted mb-2"><b>float</b> stores numbers with decimal points.</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                price = 99.5 <br> print(type(price))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'float'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">complex (Complex Number)</h5>
+                            <p class="text-muted mb-2"><b>complex</b> stores numbers with real + imaginary (j).</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                num = 2+3j <br> print(type(num))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'complex'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">str (String)</h5>
+                            <p class="text-muted mb-2"><b>str</b> stores text inside quotes.</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                name = "Python" <br> print(type(name))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'str'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">bool (Boolean)</h5>
+                            <p class="text-muted mb-2"><b>bool</b> stores True or False.</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                is_student = True <br> print(type(is_student))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'bool'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">list (List)</h5>
+                            <p class="text-muted mb-2"><b>list</b> stores multiple values (mutable).</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                nums = [1,2,3] <br> print(type(nums))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'list'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">tuple (Tuple)</h5>
+                            <p class="text-muted mb-2"><b>tuple</b> stores multiple values (immutable).</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                t = (1,2,3) <br> print(type(t))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'tuple'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">set (Set)</h5>
+                            <p class="text-muted mb-2"><b>set</b> stores unique values.</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                s = {1,2,3} <br> print(type(s))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'set'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">dict (Dictionary)</h5>
+                            <p class="text-muted mb-2"><b>dict</b> stores data in key-value pairs.</p>
+                            <div class="p-3 bg-dark text-white rounded">
+                                d = {"a":1} <br> print(type(d))
+                            </div>
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'dict'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="conversion" class="py-5 bg-white">
+        <div class="container">
+            <div class="mb-4">
+                <h2 class="fw-bold">Type Conversion</h2>
+                <p class="text-muted mb-0">Changing one data type into another type.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Implicit Conversion</h5>
+                            <p class="text-muted">Python automatically converts type when needed.</p>
+
+                            <div class="p-3 bg-dark text-white rounded">
+                                a = 5 <br>
+                                b = 2.5 <br>
+                                c = a + b <br>
+                                print(type(c))
+                            </div>
+
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'float'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Explicit Conversion</h5>
+                            <p class="text-muted">You manually convert the type using functions.</p>
+
+                            <div class="p-3 bg-dark text-white rounded">
+                                x = "10" <br>
+                                y = int(x) <br>
+                                print(type(y))
+                            </div>
+
+                            <div class="p-3 bg-secondary text-white rounded mt-3">
+                                Output: &lt;class 'int'&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="practice" class="py-5 bg-white">
+        <div class="container">
+            <div class="mb-4">
+                <h2 class="fw-bold">Mini Practice / Exercises</h2>
+                <p class="text-muted mb-0">Practice questions to improve understanding.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-success">Exercises List (10)</h5>
+                            <ol class="mb-0">
+                                <li>Swap two numbers</li>
+                                <li>Check even/odd</li>
+                                <li>Find largest of 3 numbers</li>
+                                <li>Calculate factorial</li>
+                                <li>Sum of first N numbers</li>
+                                <li>Reverse a number</li>
+                                <li>Check palindrome</li>
+                                <li>Convert Celsius to Fahrenheit</li>
+                                <li>Count digits in a number</li>
+                                <li>Simple calculator</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-primary">Tip for Practice</h5>
+                            <ul class="mb-0">
+                                <li>Try writing algorithm first</li>
+                                <li>Use variables correctly</li>
+                                <li>Print output to verify</li>
+                                <li>Fix errors by debugging</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Quiz (MCQ)</h2>
+                <p class="text-muted col-lg-8 mx-auto">Answer the questions and check your knowledge.</p>
+            </div>
+
+            <div class="card border-0 shadow">
+                <div class="card-body p-4">
+
+                    <div class="mb-4">
+                        <div class="fw-bold">1) Which data type stores decimal values?</div>
+                        <div class="text-muted">Answer: float</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">2) Which keyword represents nothing in Python?</div>
+                        <div class="text-muted">Answer: None</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">3) What is the output of type(10)?</div>
+                        <div class="text-muted">Answer: &lt;class 'int'&gt;</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">4) Python is a ______ language.</div>
+                        <div class="text-muted">Answer: Interpreted</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">5) Which symbol is used for single-line comment?</div>
+                        <div class="text-muted">Answer: #</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">6) Which of these is a Boolean value?</div>
+                        <div class="text-muted">Answer: True</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">7) Which function converts text to integer?</div>
+                        <div class="text-muted">Answer: int()</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="fw-bold">8) Which one is a sequence data type?</div>
+                        <div class="text-muted">Answer: list</div>
+                    </div>
+
+                    <div class="mb-0">
+                        <div class="fw-bold">9) Which is used to store key-value pairs?</div>
+                        <div class="text-muted">Answer: dict</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="summary" class="py-5 text-white" style="background: linear-gradient(90deg, #111827, #0f172a);">
+        <div class="container">
+            <h2 class="fw-bold mb-3">Summary / Conclusion</h2>
+            <p class="mb-0 opacity-75">
+                This educational website explained programming concepts, Python overview, Python basics, variables, data
+                types,
+                type conversion, practice questions and quiz.
+                This foundation is important for learning advanced topics like conditions, loops, functions, OOP, and
+                projects.
+            </p>
+        </div>
+    </section>
+
+    <footer class="py-3 text-center bg-white border-top">
+        <div class="container">
+            <small class="text-muted">© 2026 Python Learning Mini Project | Created using HTML & Bootstrap</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
